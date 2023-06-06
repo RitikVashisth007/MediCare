@@ -1,0 +1,57 @@
+.cardContainer {
+  width: 100%;
+}
+
+.mobileMessage {
+  visibility: hidden;
+}
+
+.tabsContanier div[class^="ant-tabs-nav-list"] {
+  width: 100%;
+  justify-content: center;
+}
+
+.tabsContanier button:focus {
+  outline: none;
+}
+
+.tabsContanier div[class^="ant-tabs-tab"] {
+  flex: 1;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  .cardContainer {
+    display: none;
+  }
+
+  .mobileMessage {
+    visibility: visible;
+  }
+
+  .logoContainer {
+    height: calc(100vh - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.blackNextButton .ant-btn-primary:hover,
+.blackNextButton .ant-btn-primary:focus {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.blackNextButton {
+  background-color: black !important;
+}
+
+.blackNextButton:active {
+  border: 1px solid white;
+}
+
+.blackNextButton :hover {
+  background-color: black !important;
+}

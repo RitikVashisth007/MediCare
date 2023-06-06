@@ -1,0 +1,18 @@
+.blackNextButton .ant-btn-primary:hover,
+.blackNextButton .ant-btn-primary:focus {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.blackNextButton {
+  background-color: black !important;
+}
+
+.blackNextButton:active {
+  border: 1px solid white;
+}
+
+.blackNextButton :hover {
+  background-color: black !important;
+}
