@@ -46,7 +46,6 @@ const MakeAppointment = ({ isVisible, setVisible }) => {
           descritpion: "Appointment Booked ",
         });
       },
-      // refetchQueries: [GET_RESTAURANT],
     }
   );
 

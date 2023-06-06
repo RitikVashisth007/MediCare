@@ -17,6 +17,7 @@ import { REGISTER } from "../../graphql/Mutation/Register";
 import { useMutation } from "@apollo/client";
 import Cookies from "js-cookie";
 import Logo from "../../assets/logo.png";
+import HandleError from "../../components/HandleError";
 
 const { Text, Title } = Typography;
 
